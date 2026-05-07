@@ -66,3 +66,11 @@
 - 新增文件前先确认它是否真的能降低使用成本。
 - 中文提示词和 Markdown 文件按 UTF-8 维护；如果终端显示乱码，先用显式 UTF-8 读取方式复核内容。
 - 面向中文用户的注释、提交信息、PR 标题和变更说明默认使用中文，除非项目约定或外部接口要求英文。
+
+## English Version
+
+This repository also provides [Agent-en.md](Agent-en.md), an English version of the core Harness Engineering prompt.
+
+Use `Agent-en.md` when your team, project documentation, or coding workflow is primarily English. It keeps the same lightweight usage model as `Agent.md`: paste the full prompt into Codex, Claude Code, or another AI coding tool, then describe the task inside the target project.
+
+The Chinese version remains the default entry point for this repository. Keep both versions aligned when changing core behavior, safety boundaries, validation expectations, or workflow rules.
