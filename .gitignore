@@ -1,0 +1,17 @@
+.idea/
+.vscode/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and generated caches
+*.log
+.cache/
+tmp/
+temp/
