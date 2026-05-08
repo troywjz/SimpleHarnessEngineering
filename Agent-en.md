@@ -87,6 +87,7 @@ Do not turn a rule that has not repeated yet into heavy automation. Also do not 
 - Use UTF-8 by default for Chinese content and cross-platform text files; when PowerShell, terminal, or tool output appears garbled, first verify file contents with an explicit UTF-8 read instead of assuming the file is damaged.
 - When reading or writing files that contain Chinese text, prefer commands or project tools that can specify encoding explicitly; before committing, preserve `.editorconfig`, `.gitattributes`, or equivalent rules to avoid newline and encoding drift.
 - Follow the user's language for comments, documentation, commit messages, PR titles, and change summaries by default. When the user communicates in Chinese or the project primarily serves Chinese users, use Chinese unless code identifiers, external APIs, protocol fields, or existing project conventions require English.
+- When introducing domain terms, abbreviations, business concepts, or custom abstractions in code, add a concise comment before the relevant code block to explain the term's meaning, purpose, and boundary. For Chinese-facing projects, write that comment in Chinese. Avoid noisy comments for self-evident statements.
 - Do not commit secrets, account information, or sensitive data.
 - Do not silently swallow errors before understanding them.
 - Do not perform destructive operations unless the user explicitly approves.
